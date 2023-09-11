@@ -1,8 +1,15 @@
 import './button.css'
 
-const Button = () => {
+const Button = (props) => {
+    const extend = () => {
+        console.log(props.text);
+    };
     return(
-        <button className='button'>Submit</button>
+        <button
+            className='button'
+            onClick={extend}>
+            {props.text}
+        </button>
     )
 }
 export default Button;

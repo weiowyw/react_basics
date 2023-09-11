@@ -8,7 +8,7 @@ function App() {
     <div className="App">
         <h1>Hey bro</h1>
         <Input/>
-        <Button></Button>
+        <Button text="idk"></Button>
     </div>
   );
 }
