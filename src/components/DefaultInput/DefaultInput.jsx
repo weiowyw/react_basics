@@ -1,4 +1,4 @@
-import './default_input.css'
+import './DefaultInput.css'
 const Input = () => {
     return(
         <input type='text' placeholder='Enter something here' />
